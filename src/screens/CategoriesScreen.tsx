@@ -1,6 +1,6 @@
 import React,{useState, useEffect} from "react";
 import { View, Text, FlatList, TouchableOpacity, Alert, TextInput, Modal, ActivityIndicator, ScrollView} from "react-native";
-import { categoriesSyles} from "../styles/CategoriesSyles";
+import { categoriesSyles} from "../styles/CategoriesStyles";
 import { categoryService, authService} from "../services/api";
 
 export default function CategoriesScreen(){
